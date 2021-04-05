@@ -1,9 +1,29 @@
-package com.company;
 import javax.swing.*;
 import java.awt.*;
 import javax.sound.midi.*;
 import java.util.*;
 import java.awt.event.*;
+
+
+import java.awt.BorderLayout;
+import java.awt.GridLayout;
+import java.awt.Label;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.ArrayList;
+import javax.sound.midi.MidiEvent;
+import javax.sound.midi.MidiSystem;
+import javax.sound.midi.Sequence;
+import javax.sound.midi.Sequencer;
+import javax.sound.midi.ShortMessage;
+import javax.sound.midi.Track;
+import javax.swing.BorderFactory;
+import javax.swing.Box;
+import javax.swing.JButton;
+import javax.swing.JCheckBox;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
 
 
 public class Beatbox {
